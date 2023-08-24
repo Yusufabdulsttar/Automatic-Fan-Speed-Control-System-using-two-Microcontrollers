@@ -19,11 +19,11 @@
 #include "MCAL_Layer/usart/mcal_usart.h"
 #include "MCAL_Layer/Interrupt/mcal_interrupt_manager.h"
 
-/* section : Micro Declaration  */
+/* section: Micro Declaration  */
 
-/* section : Micro Function Declaration  */
+/* section: Micro Function Declaration  */
 
-/* section : Data Type Declaration  */
+/* section: Data Type Declaration  */
 
 led_t led_Green;
 led_t led_Red;
@@ -45,7 +45,7 @@ volatile uint8 value = 0;
 
 uint8 count_char = 0;
 
-/* section : Function Declaration  */
+/* section: Function Declaration  */
 void initialization ();
 
 #endif	/* APP_H */
