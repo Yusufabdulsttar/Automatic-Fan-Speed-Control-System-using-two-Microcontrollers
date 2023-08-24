@@ -11,13 +11,13 @@
 /* section : Includes   */
 #include <xc.h>
 
-/* section : Micro Declaration  */
+/* section: Micro Declaration  */
 
-/* section : Micro Function Declaration  */
+/* section: Micro Function Declaration  */
 
-/* section : Data Type Declaration  */
+/* section: Data Type Declaration  */
  
-/* section : Function Declaration  */
+/* section: Function Declaration  */
 
 #endif	/* COMPILER_H */
 
