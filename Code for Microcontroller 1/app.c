@@ -6,7 +6,7 @@
  */
 #include "app.h"
 
-/* UART Interrupt Function*/
+/* UART ISR Function*/
 void UART_RX(){
    if (value  == 0 ){
    usart_asy_read(&Value_Recived2); 
@@ -75,7 +75,6 @@ int main() {
     }
 }
     
-
 void initialization (){
     
 /* UART Configuration */  
