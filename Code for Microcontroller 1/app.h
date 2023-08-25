@@ -38,7 +38,7 @@ ccp_t PWM;
 timer2_t timer2;
 usart_t UART;
    
-/* (volatile) because they use in the ISR Function */
+/* (volatile) because they use in ISR Function */
 volatile uint16 Value_Recived1 = 0;
 volatile uint16 Value_Recived2 = 0;
 volatile uint8 value = 0;
