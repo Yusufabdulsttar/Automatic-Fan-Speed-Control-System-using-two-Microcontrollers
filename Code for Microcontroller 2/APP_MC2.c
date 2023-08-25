@@ -12,10 +12,10 @@ int main() {
     initialization (); 
 
     while (1){
-	/* to get temprature value*/	
+    /* to get temperature value*/	
     adc_conv_value(&ADC, ADC_CHANNEL_AN0, &Temp);
-    Temp_Celsius = Temp * (4.88f);       /* Step_size = 4.88 */
-    Temp_Celsius /= 10;              /* The sensitivity of LM35 is 10 mV/degree Celsius */
+    Temp_Celsius = Temp * (4.88f);        /* Step_size = 4.88 */
+    Temp_Celsius /= 10;                   /* The sensitivity of LM35 is 10 mV/degree Celsius */
     /* send the command to the Microcontroller 1 */
     count_char = '0' + (Temp_Celsius % 10);
     usart_asy_write(count_char);
